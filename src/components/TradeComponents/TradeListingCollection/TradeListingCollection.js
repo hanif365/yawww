@@ -1,12 +1,11 @@
 import React from 'react';
-import './ListingCollection.css';
-import ListingCollectionList from '../ListingCollectionList/ListingCollectionList'
+import TradeListingCollectionList from '../TradeListingCollectionList/TradeListingCollectionList';
+import './TradeListingCollection.css';
 
-const ListingCollection = () => {
+const TradeListingCollection = () => {
     return (
         <div className='container '>
-            <div className='d-flex justify-content-between'>
-                {/* <h4>New Collections</h4> */}
+            {/* <div className='d-flex justify-content-between'>
                 <li class="nav-item dropdown dropdown-btn">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Amount (SOL)
@@ -32,15 +31,11 @@ const ListingCollection = () => {
                         </ul>
                     </li>
                 </div>
+            </div> */}
 
-
-                {/* <p className='text-explore'>EXPLORE MORE</p> */}
-            </div>
-
-            <ListingCollectionList></ListingCollectionList>
-
+            <TradeListingCollectionList></TradeListingCollectionList>
         </div>
     );
 };
 
-export default ListingCollection;
+export default TradeListingCollection;

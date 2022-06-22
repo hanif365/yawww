@@ -17,6 +17,7 @@ import History from './pages/Loans/History/History';
 import MyListing from './pages/Loans/MyListing/MyListing';
 import MyFundedLoans from './pages/Loans/MyFundedLoans/MyFundedLoans';
 import HelpFaq from './pages/Loans/HelpFaq/HelpFaq';
+import Listings from './pages/Trades/Listings/Listings';
 
 function App() {
   return (
@@ -30,6 +31,14 @@ function App() {
       <Route path="/loans/my-listing" element={<MyListing />} />
       <Route path="/loans/funded-loan" element={<MyFundedLoans />} />
       <Route path="/loans/help-faq" element={<HelpFaq />} />
+
+      <Route path="/trades" element={<Listings />} />
+      <Route path="/trades/listing" element={<Listings />} />
+      <Route path="/trades/history" element={<Listings />} />
+      <Route path="/trades/my-listing" element={<Listings />} />
+      <Route path="/trades/funded-loan" element={<Listings />} />
+      <Route path="/trades/help-faq" element={<Listings />} />
+
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>

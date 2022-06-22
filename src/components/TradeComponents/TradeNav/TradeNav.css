@@ -1,0 +1,44 @@
+.trades-nav-group {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.trades-nav-group .trades-nav:not(:last-child) {
+    margin: 0px 50px 0px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shared-hr {
+    /* border: 2px solid #736C6C;
+    margin: 30px 350px 50px 300px; */
+
+    margin: auto;
+    max-width: 700px;
+    height: 50px;
+    text-align: center;
+    border-top: 5px solid;
+    /* border-image: linear-gradient(to right, grey 0%, grey 18%, yellow 18%, yellow 35%, orange 35%, orange 54%, red 54%, red 82%, teal 82%) 6; */
+
+    /* border-image: linear-gradient(to right, #1AB8A6 0%, #1AB8A6 18%, #736C6C 18%, #736C6C 35%) 2; */
+    /* border-image: linear-gradient(to right, #736C6C 0%, #736C6C 18%, #8C58FF 18%, #8C58FF 35%, #736C6C 35%, #736C6C 100%) 2; */
+    /* border-image: linear-gradient(to right, #736C6C 0%, #736C6C 35%, #8C58FF 35%, #8C58FF 54%, #736C6C 54%, #736C6C 100%) 2; */
+    /* border-image: linear-gradient(to right, #736C6C 0%, #736C6C 54%, #8C58FF 54%, #8C58FF 82%, #736C6C 82%, #736C6C 100%) 2; */
+    /* border-image: linear-gradient(to right, #736C6C 0%, #736C6C 82%, #8C58FF 82%, #8C58FF 100%) 2; */
+}
+
+.trade-nav-container #listings{
+    border-image: linear-gradient(to right, #1AB8A6 0%, #1AB8A6 18%, #736C6C 18%, #736C6C 35%) 2;
+}
+.trade-nav-container #history{
+    border-image: linear-gradient(to right, #736C6C 0%, #736C6C 18%, #1AB8A6 18%, #1AB8A6 35%, #736C6C 35%, #736C6C 100%) 2;
+}
+.trade-nav-container #my-listing{
+    border-image: linear-gradient(to right, #736C6C 0%, #736C6C 35%, #1AB8A6 35%, #1AB8A6 54%, #736C6C 54%, #736C6C 100%) 2;
+}
+.trade-nav-container #my-funded-loans{
+    border-image: linear-gradient(to right, #736C6C 0%, #736C6C 54%, #1AB8A6 54%, #1AB8A6 82%, #736C6C 82%, #736C6C 100%) 2;
+}
+.trade-nav-container #help-faq{
+    border-image: linear-gradient(to right, #736C6C 0%, #736C6C 82%, #1AB8A6 82%, #1AB8A6 100%) 2;
+}

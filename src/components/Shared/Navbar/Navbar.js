@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <Link to="/loans" class="nav-link active" aria-current="page">LOANS</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">TRADES</a>
+                                <Link to="/trades" class="nav-link" >TRADES</Link>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">TRADE APP</a>

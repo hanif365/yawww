@@ -1,0 +1,67 @@
+.TradeListing_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.TradeListing_card{
+    width: 16rem;
+    padding: 0 0 30px 0;
+    margin: 10px 10px;
+    border: 1px solid #6A6464;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.card-main-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.card-sub-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.hr{
+    border: 1px solid #6A6464;
+    margin: 10px 0;
+}
+.trade-card-lower-title{
+    color: #662BE8;
+    font-size: 16px;
+    font-weight: 700;
+}
+.solana-img{
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    
+}
+.solana-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0px 3px 5px;
+}
+.btn-group-trade-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn-trade-list{
+    background-color: #8C58FF;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 3px 15px;
+    margin: 10px 5px 0 0;
+}
+.btn-trade-list-wide{
+    background-color: #8C58FF;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 3px 15px;
+    margin: 6px 5px 0 0;
+}
