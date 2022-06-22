@@ -10,7 +10,7 @@ const Loans = () => {
         <div>
             <Navbar></Navbar>
             <LoanTopContent></LoanTopContent>
-            <LoanNav></LoanNav>
+            <LoanNav name="listings"></LoanNav>
             <ListingCollection></ListingCollection>
         </div>
     );

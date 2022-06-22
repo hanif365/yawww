@@ -13,6 +13,10 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Loans from './pages/Loans/Loans';
+import History from './pages/Loans/History/History';
+import MyListing from './pages/Loans/MyListing/MyListing';
+import MyFundedLoans from './pages/Loans/MyFundedLoans/MyFundedLoans';
+import HelpFaq from './pages/Loans/HelpFaq/HelpFaq';
 
 function App() {
   return (
@@ -21,6 +25,11 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/loans" element={<Loans />} />
+      <Route path="/loans/listing" element={<Loans />} />
+      <Route path="/loans/history" element={<History />} />
+      <Route path="/loans/my-listing" element={<MyListing />} />
+      <Route path="/loans/funded-loan" element={<MyFundedLoans />} />
+      <Route path="/loans/help-faq" element={<HelpFaq />} />
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>
