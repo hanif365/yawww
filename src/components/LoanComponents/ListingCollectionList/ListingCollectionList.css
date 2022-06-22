@@ -1,0 +1,60 @@
+.ListingCollectionList_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.ListingCollectionList_card{
+    width: 16rem;
+    padding: 0 0 20px 0;
+    margin: 10px 10px;
+    border: 1px solid #6A6464;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(140, 88, 255, 0.25);
+}
+.card-main-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.card-sub-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.hr{
+    border: 1px solid #6A6464;
+    margin: 10px 0;
+}
+
+.solana-img{
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    
+}
+.day-percent{
+    display: flex;
+    justify-content: space-between;
+}
+.solana-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0px 3px 5px;
+}
+
+.loanClock-img, .loanDB-img{
+    width: 18px;
+    height: 18px;
+}
+.apy-percent{
+    display: flex;
+    justify-content: space-between;
+}
+.listing-text-highlight{
+    color: #8C58FF;
+}
+.text-add-highlight{
+    color: #1AB8A6;
+}
+

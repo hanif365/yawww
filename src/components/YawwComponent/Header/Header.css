@@ -1,0 +1,39 @@
+.header_container{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.header_text_highlight{
+    color: #3C6CD5;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.headerImg{
+    width: 70%;
+}
+.btn_trade, .btn_loan{
+    background-color: #8C58FF;
+    border: none;
+    color: #fff;
+    padding: 6px 40px;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.group_img{
+    width: 60px;
+}

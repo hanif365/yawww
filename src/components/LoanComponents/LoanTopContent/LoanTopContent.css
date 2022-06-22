@@ -1,0 +1,35 @@
+.LoanTopContent-container{
+    padding: 50px 0;
+    
+
+}
+.LoanTopContent-container h4{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.LoanTopContent-container p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-highlight{
+    color: #FF931E;
+}
+.loanOutIcon{
+    width: 14px;
+    height: 14px;
+    margin: 0 0 2px 0;
+}
+.btn-loan{
+    background-color: #8C58FF;
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+.loanBook-img{
+    width: 16px;
+    height: 16px;
+    margin: 0 3px 2px 0;
+    
+}

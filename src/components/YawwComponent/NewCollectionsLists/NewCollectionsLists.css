@@ -1,0 +1,53 @@
+.NewCollectionList_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 40px 0;
+}
+
+.NewCollectionList_card {
+    width: 14rem;
+    padding: 0 0 30px 0;
+    margin: 10px 10px;
+    border: 1px solid #6A6464;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.new-collection-card-main-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-group-new-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn-new-list {
+    background-color: #2EBBE8;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 2px 40px;
+    margin: 10px 5px 0 10px;
+}
+.collection-link{
+    text-align: center;
+}
+.collection-link a{
+    color: #8C58FF;
+}
+.leftArrow{
+    position: relative;
+    top: 180px;
+    cursor: pointer;
+}
+.rightArrow{
+    position: relative;
+    top: 180px;
+    cursor: pointer;
+}
