@@ -7,7 +7,7 @@ import './Listings.css';
 
 const Listings = () => {
     return (
-        <div>
+        <div className='pb-5'>
             <Navbar></Navbar>
             <TradeTopContent></TradeTopContent>
             <TradeNav name="listings"></TradeNav>

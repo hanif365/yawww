@@ -4,8 +4,7 @@ import './TradeNav.css';
 
 const TradeNav = (props) => {
     const { name } = props;
-    console.log("jkjl", name);
-
+    
     return (
         <div className='trade-nav-container'>
             <div className='trades-nav-group'>

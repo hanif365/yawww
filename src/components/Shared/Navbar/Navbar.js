@@ -22,10 +22,10 @@ const Navbar = () => {
                                 <Link to="/trades" class="nav-link" >TRADES</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">TRADE APP</a>
+                                <Link to="/trade-app" class="nav-link">TRADE APP</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">STAKE</a>
+                                <Link to="/stake" class="nav-link">STAKE</Link>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

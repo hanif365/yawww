@@ -18,6 +18,10 @@ import MyListing from './pages/Loans/MyListing/MyListing';
 import MyFundedLoans from './pages/Loans/MyFundedLoans/MyFundedLoans';
 import HelpFaq from './pages/Loans/HelpFaq/HelpFaq';
 import Listings from './pages/Trades/Listings/Listings';
+import TradeApp from './pages/TradeApp/TradeApp';
+import Stake from './pages/Stake/Stake';
+import ProvideLiquidity from './pages/Stake/ProvideLiquidity/ProvideLiquidity';
+
 
 function App() {
   return (
@@ -38,6 +42,13 @@ function App() {
       <Route path="/trades/my-listing" element={<Listings />} />
       <Route path="/trades/funded-loan" element={<Listings />} />
       <Route path="/trades/help-faq" element={<Listings />} />
+
+      <Route path="/trade-app" element={<TradeApp />} />
+
+      <Route path="/stake" element={<Stake />} />
+      <Route path="/stake/staking" element={<Stake />} />
+      <Route path="/stake/liquidity" element={<ProvideLiquidity />} />
+      <Route path="/stake/farm" element={<Stake />} />
 
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>

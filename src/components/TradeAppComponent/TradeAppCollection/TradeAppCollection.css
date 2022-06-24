@@ -1,0 +1,193 @@
+.TradeAppCollection-container{
+    margin: 50px auto;
+}
+
+.trade-app-left-div{
+    background-color: #ECECFF;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+.trade-app-left-upper-part{
+    display: flex;
+    justify-content: center;
+}
+.text-top{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* card */
+.TradeAppCollection_card{
+    width: 16rem;
+    padding: 0 0 0px 0;
+    margin: 10px 10px;
+    border: 1px solid #6A6464;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+
+}
+.card-main-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.card-sub-title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.hr{
+    border: 1px solid #6A6464;
+    margin: 10px 0;
+}
+.card-lower-title{
+    color: #1AB8A6;
+    font-size: 16px;
+    font-weight: 700;
+}
+.solana-img{
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    
+}
+.solana-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0px 3px 5px;
+}
+.btn-group-trade-app-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn-trade-app-list{
+    background-color: #8C58FF;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 25px;
+    padding: 3px 15px;
+    margin: 5px 5px 0 0;
+}
+
+/* arrow */
+.trade-app-leftArrow{
+    position: relative;
+    top: 200px;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+.trade-app-leftArrow img{
+    width: 80%;
+}
+.trade-app-rightArrow{
+    position: relative;
+    top: 200px;
+    cursor: pointer;
+    margin: 0 0 0 20px;
+}
+.trade-app-rightArrow img{
+    width: 80%;
+}
+.trade-app-lower-part{
+    display: flex;
+    padding: 20px 30px 0px 50px;
+}
+.lower-content{
+    margin: 0 20px;
+}
+.lower-content p{
+    font-size: 16px;
+    line-height: 10px;
+}
+.graph-img{
+    padding: 0 0 0 10px;
+}
+.graph-text{
+    color: #1AEB2F;
+}
+.trade-app-highlight{
+    color: #4E1CBB;
+}
+
+/* right side div */
+.trade-app-right-div{
+    background-color: #ECECFF;
+    border-radius: 10px;
+    padding: 30px 0;
+    margin: 0 0 0 30px;
+}
+.settingImg{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 20px;
+}
+.minimizeImg{
+    width: 18px;
+    height: 18px;
+}
+.transfer-hr{
+    border: 1px solid #8A8AA0;
+    margin: 0 15px;
+}
+.wallet-address-content{
+    margin: 0 15px;
+}
+.wallet-address-content p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.wallet-address{
+    background-color: #E8E8E8;
+    padding: 10px 10px;
+    border: 1px solid #CDCDDB;
+    border-radius: 10px;
+    margin: 0 0 30px 0 !important;
+}
+.lowerArrow{
+    display: flex;
+    justify-content: center;
+    margin: auto !important;
+    cursor: pointer;
+}
+.new-wallet-address-content{
+    margin: 0 15px;
+}
+.new-wallet-address-content p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.new-wallet-address{
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border: 1px solid #CDCDDB;
+    border-radius: 10px;
+    margin: 0 0 30px 0 !important;
+}
+.tolerance-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+.tolerance-content p{
+    color: #662BE8;
+    font-size: 14px;
+}
+.trade-transfer-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0 0 0;
+}
+.transfer-btn-inner{
+    background-color: #8C58FF;
+    margin: auto !important;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 8px 60px;
+    font-size: 16px;
+    font-weight: 700;
+} 
