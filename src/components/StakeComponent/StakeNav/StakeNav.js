@@ -12,7 +12,7 @@ const StakeNav = (props) => {
                 <Link className='stake-nav' to="/stake/farm">Farm</Link>
             </div>
 
-            <div className='shared-hr' id={name}>
+            <div className='stake-shared-hr' id={name}>
 
             </div>
         </div>

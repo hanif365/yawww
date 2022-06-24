@@ -21,6 +21,8 @@ import Listings from './pages/Trades/Listings/Listings';
 import TradeApp from './pages/TradeApp/TradeApp';
 import Stake from './pages/Stake/Stake';
 import ProvideLiquidity from './pages/Stake/ProvideLiquidity/ProvideLiquidity';
+import Farm from './pages/Farm/Farm';
+import Contact from './pages/Contact/Contact';
 
 
 function App() {
@@ -48,7 +50,9 @@ function App() {
       <Route path="/stake" element={<Stake />} />
       <Route path="/stake/staking" element={<Stake />} />
       <Route path="/stake/liquidity" element={<ProvideLiquidity />} />
-      <Route path="/stake/farm" element={<Stake />} />
+      <Route path="/stake/farm" element={<Farm />} />
+
+      <Route path="/contact" element={<Contact />} />
 
       {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
