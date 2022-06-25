@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div className='container'>
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-md-4">
                         <h3>YAWWW</h3>
                         <h6 className='py-3'>#1 Tranding & <br />

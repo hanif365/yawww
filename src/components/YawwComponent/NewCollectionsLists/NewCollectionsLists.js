@@ -28,7 +28,7 @@ const NewCollectionsLists = () => {
             </div>
 
             {/* second card */}
-            <div class="card" className='NewCollectionList_card'>
+            <div class="card" className='NewCollectionList_card card2'>
                 <div className='btn-group-new-list'>
                     <a href="#" class="btn btn-new-list">NEW</a>
                 </div>
@@ -58,7 +58,7 @@ const NewCollectionsLists = () => {
             </div>
 
             {/* fourth card */}
-            <div class="card" className='NewCollectionList_card'>
+            <div class="card" className='NewCollectionList_card fourth-card'>
                 <div className='btn-group-new-list'>
                     <a href="#" class="btn btn-new-list">NEW</a>
                 </div>

@@ -25,7 +25,7 @@ const StakingCollection = () => {
             <div className="select-chain pt-5">
                 <h5>Choose Chain</h5>
                 <li class="nav-item dropdown staking-dropdown-btn">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link nav-link-staking dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src={ethereumLogo} className="ethereumLogo" alt="" /> Ethereum
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

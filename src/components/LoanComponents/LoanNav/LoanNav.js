@@ -4,9 +4,7 @@ import './LoanNav.css';
 
 const LoanNav = (props) => {
     const {name} = props;
-    console.log("jkjl", name);
-    
-    
+
     return (
         <div>
             <div className='loan-nav-group'>

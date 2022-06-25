@@ -37,3 +37,63 @@ p{
 .group_img{
     width: 60px;
 }
+.trade-logo-section{
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .header_container{
+        text-align: center;
+        margin: 50px 0 50px 0;
+    }
+    .header_text_highlight{
+        color: #3C6CD5;
+    }
+    
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h4{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    h5{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 15px 10px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .headerImg{
+        width: 70%;
+    }
+    .btn_trade{
+        background-color: #8C58FF;
+        border: none;
+        color: #fff;
+        padding: 6px 60px;
+        border-radius: 25px;
+        font-weight: 700;
+        margin: 15px 0 0 0;
+    }
+    .btn_loan{
+        background-color: #8C58FF;
+        border: none;
+        color: #fff;
+        padding: 6px 65px;
+        border-radius: 25px;
+        font-weight: 700;
+        margin: 15px 0 0 0;
+    }
+    .group_img{
+        width: 60px;
+    }
+    .trade-logo-section{
+        display: flex;
+        flex-direction: column;
+    }
+}

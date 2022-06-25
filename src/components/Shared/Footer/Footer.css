@@ -26,3 +26,37 @@ a{
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 767px) {
+    .footer-container{
+        background-color: #F5F0F0;
+        padding: 40px 0px;
+        
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    h6{
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .social-icon-group img{
+        background-color: #434556;
+        padding: 10px;
+        width: 36px;
+        height: 36px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}

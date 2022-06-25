@@ -4,6 +4,7 @@ import headerImg from '../../../Assets/Images/header_img.png';
 import tradeLogo from '../../../Assets/Images/trade_logo.png';
 import stakeLogo from '../../../Assets/Images/stake_logo.png';
 import lendLogo from '../../../Assets/Images/lend_logo.png';
+import handLogo from '../../../Assets/Images/hand-logo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -18,12 +19,12 @@ const Header = () => {
                     <img src={headerImg} alt="" className='headerImg pt-5 pb-3' />
                     <h5>The safest place on solana to collaterize & trade your NFTs</h5>
                     <div>
-                        <button className='btn btn_trade me-5'>Trade Listings</button>
+                        <button className='btn btn_trade me-md-5'><img src={handLogo} alt="" className='' /> Trade Listings</button>
                         <button className='btn btn_loan'>% Loan Listings</button>
                     </div>
                     {/* <FontAwesomeIcon icon={faCoffee} /> */}
 
-                    <div className='d-flex justify-content-center py-5 mt-5'>
+                    <div className='trade-logo-section justify-content-center py-md-5 mt-5'>
                         <div>
                             <img src={tradeLogo} alt="" className='group_img' />
                             <h4>Trade</h4>

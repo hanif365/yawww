@@ -36,7 +36,7 @@ const FarmCollection = () => {
             <div className='farming-opportunities'>
                 <h5 className='farm-title'>Farming Opportunities</h5>
                 <li class="nav-item dropdown farm-dropdown-btn">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link nav-link-farm dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Select Farm
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -55,7 +55,7 @@ const FarmCollection = () => {
             <div className='farming-opportunities'>
                 <h5 className='farm-title'>Deposit Tokens</h5>
                 <li class="nav-item dropdown farm-dropdown-btn">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link nav-link-farm dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src={ethereumLogo} className="ethereumLogo" alt="" /> Select Token
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

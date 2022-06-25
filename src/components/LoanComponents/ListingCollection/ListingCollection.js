@@ -5,10 +5,9 @@ import ListingCollectionList from '../ListingCollectionList/ListingCollectionLis
 const ListingCollection = () => {
     return (
         <div className='container '>
-            <div className='d-flex justify-content-between'>
-                {/* <h4>New Collections</h4> */}
+            <div className='d-flex justify-content-between mx-4 mx-md-0'>
                 <li class="nav-item dropdown dropdown-btn">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link nav-link-listing dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Amount (SOL)
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -20,9 +19,9 @@ const ListingCollection = () => {
 
 
                 <div className='d-flex '>
-                    <p className='m-2'>35,8745 Results</p>
+                    <p className='m-md-2 listing-result'>35,8745 Results</p>
                     <li class="nav-item dropdown dropdown-btn">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link nav-link-listing dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Recently Active
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -32,9 +31,6 @@ const ListingCollection = () => {
                         </ul>
                     </li>
                 </div>
-
-
-                {/* <p className='text-explore'>EXPLORE MORE</p> */}
             </div>
 
             <ListingCollectionList></ListingCollectionList>

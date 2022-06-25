@@ -22,3 +22,30 @@
     width: 50px;
     margin: 0 0 0 10px;
 }
+
+@media only screen and (max-width: 767px) {
+    .navbar-container{
+        background-color: #FCF8F8;
+        border-bottom: 0.5px solid #2B2929;
+        padding: 15px 0;
+    }
+    .navbar-brand{
+        font-weight: 700;
+    }
+    .btn_navbar{
+        background-color: #8C58FF;
+        border: none;
+        color: #fff;
+        padding: 10px 40px;
+        border-radius: 25px;
+        font-weight: 700;
+    }
+    .mid_menu{
+        margin: 0 0 0 0px;
+        font-weight: 700;
+    }
+    .profileLogo{
+        width: 50px;
+        margin: 0 0 0 10px;
+    }
+}

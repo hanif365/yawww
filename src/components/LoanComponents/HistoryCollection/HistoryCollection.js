@@ -5,7 +5,7 @@ import './HistoryCollection.css';
 const HistoryCollection = () => {
     return (
         <div className='container '>
-            <div className='d-flex justify-content-between'>
+            <div className='mx-4 mx-md-4 d-flex justify-content-between'>
                 {/* <h4>New Collections</h4> */}
                 <li class="nav-item dropdown dropdown-btn">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,7 +20,7 @@ const HistoryCollection = () => {
 
 
                 <div className='d-flex '>
-                    <p className='m-2'>35,8745 Results</p>
+                    <p className='m-md-2 listing-result'>35,8745 Results</p>
                     <li class="nav-item dropdown dropdown-btn">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Recently Active

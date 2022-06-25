@@ -32,7 +32,7 @@ const LiquidityCollection = () => {
                             <h5>Choose Chain</h5>
                             <div className='d-flex justify-content-between'>
                                 <li class="nav-item dropdown new-position-dropdown-btn col-md-6">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link nav-link-liquidity dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src={ethereumLogo} className="ethereumLogo" alt="" /> Ethereum
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -43,7 +43,7 @@ const LiquidityCollection = () => {
                                 </li>
 
                                 <li class="nav-item dropdown new-position-dropdown-btn col-md-5">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link nav-link-liquidity dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src={ethereumLogo} className="ethereumLogo" alt="" /> Ethereum
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
