@@ -42,3 +42,46 @@
 .trade-nav-container #help-faq{
     border-image: linear-gradient(to right, #736C6C 0%, #736C6C 82%, #1AB8A6 82%, #1AB8A6 100%) 2;
 }
+
+@media only screen and (max-width: 767px) {
+    .trades-nav-group {
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+    
+    .trades-nav-group .trades-nav:not(:last-child) {
+        margin: 0px 5px 0px 0;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .trades-nav{
+        font-size: 11px;
+    }
+    
+    .shared-hr {
+        /* border: 2px solid #736C6C;
+        margin: 30px 350px 50px 300px; */
+    
+        margin: auto 20px !important;
+        max-width: 700px;
+        height: 10px;
+        text-align: center;
+        border-top: 5px solid;
+    }
+    
+    .trade-nav-container #listings{
+        border-image: linear-gradient(to right, #1AB8A6 0%, #1AB8A6 15%, #736C6C 15%, #736C6C 35%) 2;
+    }
+    .trade-nav-container #history{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 15%, #1AB8A6 15%, #1AB8A6 30%, #736C6C 30%, #736C6C 100%) 2;
+    }
+    .trade-nav-container #my-listing{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 30%, #1AB8A6 30%, #1AB8A6 52%, #736C6C 52%, #736C6C 100%) 2;
+    }
+    .trade-nav-container #my-funded-loans{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 52%, #1AB8A6 52%, #1AB8A6 82%, #736C6C 82%, #736C6C 100%) 2;
+    }
+    .trade-nav-container #help-faq{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 82%, #1AB8A6 82%, #1AB8A6 100%) 2;
+    }
+}
