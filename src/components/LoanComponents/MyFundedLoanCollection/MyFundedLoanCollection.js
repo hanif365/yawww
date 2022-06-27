@@ -3,7 +3,7 @@ import './MyFundedLoanCollection.css';
 
 const MyFundedLoanCollection = () => {
     return (
-        <div className='container MyFundedLoadCollection-container'>
+        <div className='container MyFundedLoadCollection-container pt-5 pt-md-0'>
             <h4 className='pb-3'>Loans funded</h4>
             <p>Please connect your wallet to view your loans</p>
             <button className='btn btn-wallet'>Select Wallet</button>

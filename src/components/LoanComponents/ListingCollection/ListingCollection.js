@@ -4,7 +4,7 @@ import ListingCollectionList from '../ListingCollectionList/ListingCollectionLis
 
 const ListingCollection = () => {
     return (
-        <div className='container '>
+        <div className='container'>
             <div className='d-flex justify-content-between mx-4 mx-md-0'>
                 <li class="nav-item dropdown dropdown-btn">
                     <a class="nav-link nav-link-listing dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

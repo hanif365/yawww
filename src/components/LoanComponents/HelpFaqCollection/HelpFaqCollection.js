@@ -3,7 +3,7 @@ import './HelpFaqCollection.css';
 
 const HelpFaqCollection = () => {
     return (
-        <div className='container'>
+        <div className='container pt-5 pt-md-0'>
             <div className=' HelpFaqCollection-container'>
                 <h4 className='pb-3'>Loans FAQ</h4>
                 <p>We are always open to feedback! If you wish to get in <br /> touch, joir our Discord or hit us up in Twitter</p>

@@ -94,3 +94,101 @@
     border: 1px solid #736C6C;
 }
 
+@media only screen and (max-width: 767px) {
+    .TradeAppTopContent-container {
+        padding: 50px 0 20px 0;
+    }
+    
+    .TradeAppTopContent-container h4 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    
+    .TradeAppTopContent-container p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    /* step progress start */
+    
+    .steps {
+        list-style: none;
+        margin: 10px auto;
+        padding: 0;
+        display: table;
+        table-layout: fixed;
+        width: 80%;
+        /* color: darken(#e6e6e6, 33%); */
+        /* height: 4rem; */
+    }
+    
+    .step {
+        position: relative;
+        display: table-cell;
+        text-align: center;
+        font-size: 0.775rem;
+        color: #8A8AA0;
+    }
+    
+    .step:before {
+        content: attr(data-step);
+        display: block;
+        margin: 0 auto;
+        background: #8A8AA0;
+        /* border: 2px solid #e6e6e6; */
+        color: #121212;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        line-height: 1.9rem;
+        border-radius: 100%;
+        position: relative;
+        z-index: 1;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    
+    .step:after {
+        content: '';
+        position: absolute;
+        display: block;
+        background: #8A8AA0;
+        width: 100%;
+        height: 4px;
+        top: 1rem;
+        left: 50%;
+    }
+    
+    .step:last-child:after {
+        display: none;
+    }
+    
+    .is-active {
+        /* font-size: 1.5rem; */
+        color: #FF931E;
+    
+    }
+    
+    .is-active:before {
+        color: #121212;
+        border: 2px solid #FF931E;
+        background: #FF931E;
+        margin-bottom: 0.5rem;
+    }
+    
+    .steps {
+        margin-bottom: 1em;
+    }
+    
+    /* step progress end */
+    
+    .trade-app-hr{
+        border: 1px solid #736C6C;
+        margin: 0 20px;
+    }
+}
+

@@ -6,7 +6,7 @@ import loanBook from '../../../Assets/Images/loan-book.png';
 const TradeAppTopContent = () => {
     return (
         <div className='container TradeAppTopContent-container'>
-            <div className="row">
+            <div className="">
                 <h4>P2P NFT Trading App</h4>
                 <p>The safest place on Solana to trade verified NFTs</p>
             </div>
