@@ -38,7 +38,7 @@ const StakingCollection = () => {
             </div>
 
             <div className="balance pt-4">
-                <div className="row">
+                <div className="row balance-inner">
                     <div className="col-md-5">
                         <div className='balance-text'>
                             <h5>Stake</h5>
@@ -51,7 +51,7 @@ const StakingCollection = () => {
                         <img src={doubleArrow} alt="" />
                     </div>
 
-                    <div className="col-md-5">
+                    <div className="col-md-5 pt-2 pt-md-0">
                         <div className='balance-text'>
                             <h5>Receive</h5>
                             <p>.</p>

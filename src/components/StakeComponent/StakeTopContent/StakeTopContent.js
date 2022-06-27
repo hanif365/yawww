@@ -6,7 +6,7 @@ import loanBook from '../../../Assets/Images/loan-book.png';
 const StakeTopContent = () => {
     return (
         <div className='container StakeTopContent-container'>
-            <div className="row">
+            <div className="">
                 <h4>Yawww Rewards & Staking</h4>
                 <p>Stake $YAW, Quantum Traders and Solsteins to <br /> benefit from the future of Yawww P2P</p>
             </div>

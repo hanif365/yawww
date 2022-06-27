@@ -26,3 +26,34 @@
 .stake-nav-container #Farm{
     border-image: linear-gradient(to right, #736C6C 0%, #736C6C 75%, #8C58FF 75%, #8C58FF 100%) 2;
 }
+
+@media only screen and (max-width: 767px) {
+    .stake-nav-group {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    
+    .stake-nav-group .stake-nav:not(:last-child) {
+        margin: 0px 50px 0px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .stake-shared-hr {
+        margin: auto;
+        max-width: 340px;
+        height: 50px;
+        text-align: center;
+        border-top: 5px solid;
+    }
+    
+    .stake-nav-container #Staking{
+        border-image: linear-gradient(to right, #8C58FF 0%, #8C58FF 30%, #736C6C 30%, #736C6C 35%) 2;
+    }
+    .stake-nav-container #Liquidity{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 30%, #8C58FF 30%, #8C58FF 75%, #736C6C 35%, #736C6C 100%) 2;
+    }
+    .stake-nav-container #Farm{
+        border-image: linear-gradient(to right, #736C6C 0%, #736C6C 75%, #8C58FF 75%, #8C58FF 100%) 2;
+    }
+}

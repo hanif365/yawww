@@ -93,7 +93,7 @@ const LiquidityCollection = () => {
                             </div>
 
                             <div className='price-div-outer'>
-                                <div className='price-div col-md-5 me-5'>
+                                <div className='price-div col-md-5 me-4 me-md-5'>
                                     <p className='align-self-center minus-icon'>-</p>
                                     <div className='price-inner'>
                                         <p>Min Price</p>
