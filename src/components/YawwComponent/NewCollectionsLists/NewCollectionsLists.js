@@ -10,6 +10,11 @@ import t10 from '../../../Assets/Images/t10.png';
 import t11 from '../../../Assets/Images/t11.png';
 import t12 from '../../../Assets/Images/t12.png';
 
+import t5 from '../../../Assets/Images/t5.png';
+import t6 from '../../../Assets/Images/t6.png';
+import t7 from '../../../Assets/Images/t7.png';
+import t8 from '../../../Assets/Images/t8.png';
+
 
 import rightArrow from '../../../Assets/Images/right-arrow.png';
 import leftArrow from '../../../Assets/Images/left-arrow.png';
@@ -195,6 +200,65 @@ const NewCollectionsLists = () => {
                     </div>
 
                     <img src={t12} class="card-img-top p-2" alt="..." />
+                    <div class="card-body">
+                        <h6 class="card-title new-collection-card-main-title">The Lost Apes</h6>
+                        <div className='collection-link'>
+                            <a href="#" >View collection</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* fourth card */}
+                <div class="card" className='NewCollectionList_card fourth-card'>
+                    <div className='btn-group-new-list'>
+                        <a href="#" class="btn btn-new-list">NEW</a>
+                    </div>
+
+                    <img src={t5} class="card-img-top p-2" alt="..." />
+                    <div class="card-body">
+                        <h6 class="card-title new-collection-card-main-title">Pyth Alligators</h6>
+                        <div className='collection-link'>
+                            <a href="#" >View collection</a>
+                        </div>
+                    </div>
+                </div>
+                {/* fourth card */}
+                <div class="card" className='NewCollectionList_card fourth-card'>
+                    <div className='btn-group-new-list'>
+                        <a href="#" class="btn btn-new-list">NEW</a>
+                    </div>
+
+                    <img src={t6} class="card-img-top p-2" alt="..." />
+                    <div class="card-body">
+                        <h6 class="card-title new-collection-card-main-title">The Lost Apes</h6>
+                        <div className='collection-link'>
+                            <a href="#" >View collection</a>
+                        </div>
+                    </div>
+                </div>
+                {/* fourth card */}
+                <div class="card" className='NewCollectionList_card fourth-card'>
+                    <div className='btn-group-new-list'>
+                        <a href="#" class="btn btn-new-list">NEW</a>
+                    </div>
+
+                    <img src={t7} class="card-img-top p-2" alt="..." />
+                    <div class="card-body">
+                        <h6 class="card-title new-collection-card-main-title">Pyth Alligators</h6>
+                        <div className='collection-link'>
+                            <a href="#" >View collection</a>
+                        </div>
+                    </div>
+                </div>
+                {/* fourth card */}
+                <div class="card" className='NewCollectionList_card fourth-card'>
+                    <div className='btn-group-new-list'>
+                        <a href="#" class="btn btn-new-list">NEW</a>
+                    </div>
+
+                    <img src={t8} class="card-img-top p-2" alt="..." />
                     <div class="card-body">
                         <h6 class="card-title new-collection-card-main-title">The Lost Apes</h6>
                         <div className='collection-link'>
