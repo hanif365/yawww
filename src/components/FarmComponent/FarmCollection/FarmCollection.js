@@ -8,7 +8,7 @@ import binanceLogo from '../../../Assets/Images/binance-logo.png';
 const FarmCollection = () => {
     return (
         <div className='FarmCollection-container container'>
-            <h5 className='farm-title'>Farm</h5>
+            <h5 className='text-center'>Farm</h5>
             <div className='choose-chain'>
                 <h5>Choose Chain</h5>
                 <div className='all-chain-div'>
